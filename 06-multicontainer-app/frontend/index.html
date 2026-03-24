@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multi Container App</title>
+</head>
+<body>
+  <h1>Frontend 🚀</h1>
+  <button onclick="fetchData()">Get Data</button>
+
+  <p id="result"></p>
+
+  <script>
+    function fetchData() {
+      fetch('http://localhost:5000/data')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("result").innerText = data.message;
+        });
+    }
+  </script>
+</body>
+</html>
