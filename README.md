@@ -1,9 +1,9 @@
 
 ---
 
-#  Step-by-Step: Working Through Docker Lab Repo
+##  Step-by-Step: Working Through docker-projects-lab Repo
 
-##  1: Clone & Open the Project
+## # 1: Clone & Open the Project
 
 Run this in your terminal:
 
@@ -18,7 +18,7 @@ Then open it in:
 
 ---
 
-##  2: Understand the Structure
+### 2: Understand the Structure
 
 Inside the repo, look for:
 
@@ -36,7 +36,7 @@ You’re looking for:
 
 ---
 
-##   3: Run Your First Container
+###   3: Run Your First Container
 
 ### If there’s a Dockerfile:
 
@@ -53,7 +53,7 @@ http://localhost:8080
 
 ---
 
-##  4: If You See docker-compose.yml
+###  4: If You See docker-compose.yml
 
 Run:
 
@@ -75,7 +75,7 @@ docker-compose down
 
 ---
 
-##  5: Understand What Just Happened
+###  5: Understand What Just Happened
 
 When you ran it:
 
@@ -87,7 +87,7 @@ When you ran it:
 
 ---
 
-##  6: Modify Something (IMPORTANT)
+### 6: Modify Something (IMPORTANT)
 
 This is where real learning happens.
 
@@ -124,7 +124,7 @@ This builds debugging skills (very valuable)
 
 ---
 
-##  7: Inspect Containers
+###  7: Inspect Containers
 
 Run:
 
@@ -143,7 +143,7 @@ env
 
 ---
 
-##   8: Check Logs
+###   8: Check Logs
 
 ```bash
 docker logs <container_id>
@@ -165,4 +165,28 @@ By the end of this repo, you should clearly understand:
 * How a **Dockerfile works**
 * How **multi-container apps** run
 * Basic debugging
+---
 
+## 👤 About the Architect
+<table align="center">
+<tr>
+<td align="center" width="160">
+<img src="https://github.com/Mayurhatte09.png" width="120" style="border-radius: 10px; border: 3px solid #00D4FF;" />
+</td>
+<td>
+<strong>Mayur Hatte</strong>
+
+
+
+<em>DevOps & Cloud Infrastructure Engineer</em>
+
+
+
+
+Focused on building self-healing, automated infrastructure. This playbook is a verified asset of <strong>MayurHatte09</strong>.
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub>© 2026 | Mayur Hatte Design System</sub>
