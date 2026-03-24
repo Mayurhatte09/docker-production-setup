@@ -3,7 +3,7 @@
 
 ##  Step-by-Step: Working Through docker-projects-lab Repo
 
-## # 1: Clone & Open the Project
+### 1: Clone & Open the Project
 
 Run this in your terminal:
 
