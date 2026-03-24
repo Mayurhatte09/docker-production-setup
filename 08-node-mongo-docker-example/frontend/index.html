@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 8 Frontend</title>
+</head>
+<body>
+    <h1>Project 8 Frontend</h1>
+    <button onclick="fetchMessages()">Get Messages</button>
+    <ul id="messages"></ul>
+
+    <script>
+        async function fetchMessages() {
+            const res = await fetch('http://localhost:5000/messages');
+            const messages = await res.json();
+            const ul = document.getElementById('messages');
+            ul.innerHTML = '';
+            messages.forEach(msg => {
+                const li = document.createElement('li');
+                li.innerText = msg.text;
+                ul.appendChild(li);
+            });
+        }
+    </script>
+</body>
+</html>
