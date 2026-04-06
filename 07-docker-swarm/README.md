@@ -162,3 +162,28 @@ Hello from container: <container_id>
 * Use overlay networks
 
 ---
+
+
+## 👤 About the Architect
+<table align="center">
+<tr>
+<td align="center" width="160">
+<img src="https://github.com/Mayurhatte09.png" width="120" style="border-radius: 10px; border: 3px solid #00D4FF;" />
+</td>
+<td>
+<strong>Mayur Hatte</strong>
+
+
+
+<em>DevOps & Cloud Infrastructure Engineer</em>
+
+
+
+
+Focused on building self-healing, automated infrastructure. This playbook is a verified asset of <strong>MayurHatte09</strong>.
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub>© 2025 | Mayur Hatte Design System</sub>
