@@ -145,4 +145,4 @@ Focused on building self-healing, automated infrastructure. This playbook is a v
 </table>
 
 <div align="center">
-<sub>© 2025 | Mayur Hatte Design System</sub>
+<sub>© 2026 | Mayur Hatte Design System</sub>
